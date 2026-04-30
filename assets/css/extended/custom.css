@@ -62,3 +62,15 @@
   display: inline-block;
   transition: transform 0.1s ease;
 }
+
+.profile .profile_inner span a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 4px;
+}
+
+.profile .profile_inner span a:hover {
+  color: var(--darkcolor);
+}
