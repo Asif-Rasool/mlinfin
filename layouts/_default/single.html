@@ -15,12 +15,16 @@
       {{- end }}
     </h1>
     {{- if not (.Param "hideMeta") }}
+    {{- $postMeta := partial "post_meta.html" . -}}
+    {{- $translations := partial "translation_list.html" . -}}
+    {{- $editPost := partial "edit_post.html" . -}}
+    {{- $canonical := partial "post_canonical.html" . -}}
+    {{- $meta := trim (printf "%s%s%s%s" $postMeta $translations $editPost $canonical) " \n\r\t" -}}
+    {{- if $meta }}
     <div class="post-meta">
-      {{- partial "post_meta.html" . -}}
-      {{- partial "translation_list.html" . -}}
-      {{- partial "edit_post.html" . -}}
-      {{- partial "post_canonical.html" . -}}
+      {{- $meta | safeHTML -}}
     </div>
+    {{- end }}
     {{- end }}
   </header>
   {{- $isHidden := (.Param "cover.hiddenInSingle") | default (.Param "cover.hidden") | default false }}

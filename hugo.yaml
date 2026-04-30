@@ -17,6 +17,7 @@ params:
   term: "Spring 2027"
   courseCode: "MLIF"
   author: "Asif Rasool"
+  hideAuthor: true
   DateFormat: "January 2006"
   defaultTheme: light
   hideFooter: false
