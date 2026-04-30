@@ -41,7 +41,7 @@ params:
   profileMode:
     enabled: true
     title: "Machine Learning in Finance"
-    subtitle: "Course hub for syllabus, video lessons, projects, quizzes, exams, and files."
+    subtitle: "Course Instructor & Creator: [Asif Rasool](https://www.asifrasool.net)"
     buttons:
       - name: "Syllabus"
         url: "syllabus/"
