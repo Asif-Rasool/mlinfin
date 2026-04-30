@@ -1,0 +1,8 @@
+public/
+resources/_gen/
+.hugo_build.lock
+.hugo-server.*.log
+.vscode/
+node_modules/
+.DS_Store
+Thumbs.db

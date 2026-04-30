@@ -1,0 +1,93 @@
+baseURL: "https://asif-rasool.github.io/mlif/"
+languageCode: "en-us"
+title: "Machine Learning in Finance"
+theme: "PaperMod"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+relativeURLs: false
+canonifyURLs: false
+disableKinds:
+  - taxonomy
+  - term
+  - RSS
+
+params:
+  description: "Course website for Machine Learning in Finance, with syllabus, video lessons, projects, quizzes, exams, and course files."
+  instructor: "Asif Rasool"
+  term: "Spring 2027"
+  courseCode: "MLIF"
+  author: "Asif Rasool"
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: false
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["syllabus", "video-lessons", "projects", "quizzes", "exams", "files"]
+  ShowToc: false
+  disableScrollToTop: false
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  copyright: "Machine Learning in Finance"
+  profileMode:
+    enabled: true
+    title: "Machine Learning in Finance"
+    subtitle: "Course hub for syllabus, video lessons, projects, quizzes, exams, and files."
+    buttons:
+      - name: "Syllabus"
+        url: "syllabus/"
+      - name: "Video Lessons"
+        url: "video-lessons/"
+      - name: "Projects"
+        url: "projects/"
+      - name: "Files"
+        url: "files/"
+  label:
+    text: "Machine Learning in Finance"
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+
+menu:
+  main:
+    - name: "Home"
+      pageRef: "/"
+      weight: 10
+    - name: "Syllabus"
+      pageRef: "/syllabus"
+      weight: 20
+    - name: "Video Lessons"
+      pageRef: "/video-lessons"
+      weight: 30
+    - name: "Projects"
+      pageRef: "/projects"
+      weight: 40
+    - name: "Quizzes"
+      pageRef: "/quizzes"
+      weight: 50
+    - name: "Exams"
+      pageRef: "/exams"
+      weight: 60
+    - name: "Files"
+      pageRef: "/files"
+      weight: 70
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  tableOfContents:
+    startLevel: 2
+    endLevel: 3
+    ordered: false
