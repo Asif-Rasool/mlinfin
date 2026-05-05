@@ -44,12 +44,12 @@ params:
     title: "Machine Learning in Finance"
     subtitle: "Course Instructor & Creator: [Asif Rasool](https://www.asifrasool.net)"
     buttons:
+      - name: "Home"
+        url: "home/"
       - name: "Syllabus"
         url: "syllabus/"
       - name: "Video Lessons"
         url: "video-lessons/"
-      - name: "Projects"
-        url: "projects/"
       - name: "Files"
         url: "files/"
   label:
@@ -63,11 +63,26 @@ params:
 menu:
   main:
     - name: "Home"
-      pageRef: "/"
+      pageRef: "/home"
       weight: 10
     - name: "Syllabus"
       pageRef: "/syllabus"
       weight: 20
+    - name: "Modules"
+      identifier: "modules"
+      weight: 25
+    - name: "Part 1"
+      pageRef: "/modules/part-1"
+      parent: "modules"
+      weight: 10
+    - name: "Part 2"
+      pageRef: "/modules/part-2"
+      parent: "modules"
+      weight: 20
+    - name: "Part 3"
+      pageRef: "/modules/part-3"
+      parent: "modules"
+      weight: 30
     - name: "Video Lessons"
       pageRef: "/video-lessons"
       weight: 30
