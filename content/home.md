@@ -43,13 +43,13 @@ If you would like to strengthen your Python skills before the course, Harvard's 
 If you would like to refresh your statistics knowledge, Josh Starmer's StatQuest videos are also very helpful:
 [https://statquest.org/video_index.html](https://statquest.org/video_index.html)
 
+You can earn bonus points by showing your CS50P certificate within the first month of class!
+
 ## Logistics
 
 All course content will be delivered through Canvas.
 
 All assignment submissions must also be completed through Canvas. Unless I provide different instructions for a specific activity, Canvas is the official submission system for this course.
-
-You can earn 10 participation points by showing your CS50P certificate within the first month of class!
 
 ## Textbooks
 
@@ -60,6 +60,20 @@ Available online: [https://www.statlearning.com/](https://www.statlearning.com/)
 **Probabilistic Machine Learning: An Introduction**  
 Kevin P. Murphy  
 Available online: [https://probml.github.io/pml-book/](https://probml.github.io/pml-book/)
+
+## Grading Scale
+
+This course will use the following grading scale:
+
+| Final Percentage | Letter Grade |
+| ---------------- | ------------ |
+| 90% to 100%      | A            |
+| 80% to 89%       | B            |
+| 70% to 79%       | C            |
+| 60% to 69%       | D            |
+| Below 60%        | F            |
+
+Final grades will be based on the total points earned across assignments, projects, exams, participation, and other course activities described in this [syllabus]({{< relref "syllabus" >}}).
 
 ## Software
 
