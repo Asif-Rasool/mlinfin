@@ -36,9 +36,6 @@ Some prior familiarity with the following topics will be helpful:
 - Basic statistics, such as mean, median, mode, variance, standard deviation, and probability distributions
 - Basic investment ideas, such as stocks, returns, risk, and portfolio performance
 - Programming experience in Python
-- Interest in financial markets, trading, and data-driven decision-making
-
-For the programming assignments, we will use Python and common data analysis libraries such as NumPy, Pandas, SciPy, and related tools. You may work on Windows, Mac, or Linux, as long as you can install and run the required Python packages.
 
 If you would like to strengthen your Python skills before the course, Harvard's CS50P: Introduction to Programming with Python is a great place to start:
 [https://cs50.harvard.edu/python/](https://cs50.harvard.edu/python/)
@@ -46,4 +43,42 @@ If you would like to strengthen your Python skills before the course, Harvard's 
 If you would like to refresh your statistics knowledge, Josh Starmer's StatQuest videos are also very helpful:
 [https://statquest.org/video_index.html](https://statquest.org/video_index.html)
 
+## Logistics
+
+All course content will be delivered through Canvas.
+
+All assignment submissions must also be completed through Canvas. Unless I provide different instructions for a specific activity, Canvas is the official submission system for this course.
+
 You can earn 10 participation points by showing your CS50P certificate within the first month of class!
+
+## Textbooks
+
+**Introduction to Statistical Learning**  
+Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani  
+Available online: [https://www.statlearning.com/](https://www.statlearning.com/)
+
+**Probabilistic Machine Learning: An Introduction**  
+Kevin P. Murphy  
+Available online: [https://probml.github.io/pml-book/](https://probml.github.io/pml-book/)
+
+## Software
+
+For the coding assignments, we will use Python and common data analysis libraries such as NumPy, Pandas, SciPy, scikit-learn, and related tools. In the video lessons, I will use a Windows environment for demonstrations. You may work on Windows, Mac, or Linux, as long as you can install and run the required Python packages.
+
+We will also use the following software:
+
+- **GitHub Desktop** for version control and managing course projects: [https://desktop.github.com/download/](https://desktop.github.com/download/)
+- **Visual Studio Code (VS Code)** as the main code editor: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
+- **Python**, preferably the most recent stable version available: [https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe](https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe)
+
+We will also learn how to use coding agents as part of the development process. In this course, I will use OpenAI’s Codex to demonstrate how coding agents can help with writing, debugging, and improving code. You may use your preferred coding agent, but a ChatGPT account with a payment method attached is highly recommended. Learn more about Codex here: [https://developers.openai.com/codex](https://developers.openai.com/codex)
+
+## Plagiarism
+
+Academic integrity is expected in this course. You are expected to submit your own work and to give proper credit when you use someone else's words, ideas, code, data, examples, or analysis.
+
+Because this course involves programming, data analysis, machine learning, and coding agents, plagiarism may include copying code, notebooks, written explanations, trading strategies, model outputs, charts, or analysis from another student, website, GitHub repository, AI tool, or any other source without proper acknowledgment. You may use outside resources to learn, but your submitted work should reflect your own understanding.
+
+You may use coding agents and AI tools when they are allowed for an assignment, but you must use them responsibly. If an assignment requires you to disclose outside help, you should clearly state what tools or resources you used and how you used them. Submitting AI-generated work, copied code, or another person's work as your own is not acceptable.
+
+Students found responsible for violating the Student Code of Conduct may receive sanctions depending on the nature and seriousness of the violation. You should review the official Southeastern Louisiana University Student Handbook for the full policy and student conduct procedures: [https://www.southeastern.edu/wp-content/uploads/osaa/southeastern-student-handbook-2025.pdf](https://www.southeastern.edu/wp-content/uploads/osaa/southeastern-student-handbook-2025.pdf)
