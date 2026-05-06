@@ -87,14 +87,56 @@ menu:
       pageRef: "/video-lessons"
       weight: 30
     - name: "Projects"
+      identifier: "projects"
       pageRef: "/projects"
       weight: 40
+    - name: "Project 1"
+      pageRef: "/projects/project-1"
+      parent: "projects"
+      weight: 10
+    - name: "Project 2"
+      pageRef: "/projects/project-2"
+      parent: "projects"
+      weight: 20
+    - name: "Project 3"
+      pageRef: "/projects/project-3"
+      parent: "projects"
+      weight: 30
+    - name: "Project 4"
+      pageRef: "/projects/project-4"
+      parent: "projects"
+      weight: 40
+    - name: "Project 5"
+      pageRef: "/projects/project-5"
+      parent: "projects"
+      weight: 50
+    - name: "Project 6"
+      pageRef: "/projects/project-6"
+      parent: "projects"
+      weight: 60
+    - name: "Project 7"
+      pageRef: "/projects/project-7"
+      parent: "projects"
+      weight: 70
+    - name: "Project 8"
+      pageRef: "/projects/project-8"
+      parent: "projects"
+      weight: 80
     - name: "Quizzes"
       pageRef: "/quizzes"
       weight: 50
     - name: "Exams"
+      identifier: "exams"
       pageRef: "/exams"
       weight: 60
+    - name: "Exam 1"
+      pageRef: "/exams/exam-1"
+      parent: "exams"
+      weight: 10
+    - name: "Exam 2"
+      pageRef: "/exams/exam-2"
+      parent: "exams"
+      weight: 20
     - name: "Files"
       pageRef: "/files"
       weight: 70

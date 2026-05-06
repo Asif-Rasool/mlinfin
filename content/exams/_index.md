@@ -9,8 +9,8 @@ Exam dates, format, and coverage will be posted here as they are finalized.
 
 | Exam | Coverage | Status |
 | --- | --- | --- |
-| Midterm Exam | Core workflow, evaluation, and supervised learning foundations | To be added |
-| Final Exam | Full-course synthesis and applied machine learning judgment | To be added |
+| [Exam 1]({{< relref "exam-1" >}}) | Core workflow, evaluation, and supervised learning foundations | To be added |
+| [Exam 2]({{< relref "exam-2" >}}) | Full-course synthesis and applied machine learning judgment | To be added |
 
 ## Review Materials
 

@@ -74,3 +74,33 @@
 .profile .profile_inner span a:hover {
   color: var(--darkcolor);
 }
+
+.post-content table a {
+  white-space: nowrap;
+}
+
+.post-content p,
+.post-content li {
+  text-align: justify;
+}
+
+.post-content .weekly-schedule table {
+  margin-inline: auto;
+}
+
+.post-content .weekly-schedule th,
+.post-content .weekly-schedule td {
+  padding-inline: 14px;
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+.post-content .weekly-schedule th:nth-child(1),
+.post-content .weekly-schedule td:nth-child(1) {
+  min-width: 72px;
+}
+
+.post-content .weekly-schedule th:nth-child(2),
+.post-content .weekly-schedule td:nth-child(2) {
+  min-width: 130px;
+}
