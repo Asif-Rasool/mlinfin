@@ -25,9 +25,7 @@ By the end of the course, students should be able to:
 
 ## Prerequisites/Co-requisites
 
-Students with any background are welcome in this course. If you are a computer science major, you may already recognize some of the machine learning topics. If you are a finance major, you may already be familiar with some of the investment concepts. In this course, we will bring these areas together and focus on how they can be used to design, test, and evaluate trading strategies.
-
-You do not need to be an expert in both machine learning and finance before taking this course. The most important requirements are curiosity about financial markets and a willingness to learn by doing.
+Students with any background are welcome in this course. If you are a computer science major, you may already recognize some of the machine learning topics. If you are a finance major, you may already be familiar with some of the investment concepts. In this course, we will bring these areas together and focus on how they can be used to design, test, and evaluate trading strategies. The most important requirements are curiosity about financial markets and a willingness to learn by doing.
 
 One small note: this is a graduate-level, or at least senior-level, course. We will start slowly and build the foundation step by step, but the course will gradually ramp up as we move toward more advanced topics.
 
