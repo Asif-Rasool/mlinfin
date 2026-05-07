@@ -121,6 +121,11 @@
                 {{- end }}
             </div>
         </div>
+        <button type="button" class="menu-toggle" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="menu-toggle-bar"></span>
+            <span class="menu-toggle-bar"></span>
+            <span class="menu-toggle-bar"></span>
+        </button>
         {{- $currentPage := . }}
         <ul id="menu">
             {{- range site.Menus.main }}
@@ -182,3 +187,25 @@
         </ul>
     </nav>
 </header>
+<script>
+    (function () {
+        var nav = document.querySelector('.nav');
+        var toggle = document.querySelector('.menu-toggle');
+        var menu = document.getElementById('menu');
+
+        if (!nav || !toggle || !menu) return;
+
+        toggle.addEventListener('click', function () {
+            var expanded = toggle.getAttribute('aria-expanded') === 'true';
+            toggle.setAttribute('aria-expanded', String(!expanded));
+            nav.classList.toggle('nav-menu-open', !expanded);
+        });
+
+        menu.addEventListener('click', function (event) {
+            if (event.target.closest('a')) {
+                toggle.setAttribute('aria-expanded', 'false');
+                nav.classList.remove('nav-menu-open');
+            }
+        });
+    }());
+</script>

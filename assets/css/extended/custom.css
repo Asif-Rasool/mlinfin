@@ -104,3 +104,187 @@
 .post-content .weekly-schedule td:nth-child(2) {
   min-width: 130px;
 }
+
+.menu-toggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4px;
+  width: 42px;
+  height: 42px;
+  margin: auto var(--gap) auto auto;
+  color: var(--primary);
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.menu-toggle-bar {
+  width: 18px;
+  height: 2px;
+  background: currentColor;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 900px) {
+  .nav {
+    align-items: center;
+    line-height: 1.3;
+  }
+
+  .logo {
+    flex: 1 1 calc(100% - 74px);
+    min-width: 0;
+    margin: 8px 0 8px var(--gap);
+  }
+
+  .logo a {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.25;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  #menu {
+    display: none;
+    flex-basis: 100%;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+    padding: 6px var(--gap) 12px;
+    white-space: normal;
+    border-top: 1px solid var(--border);
+  }
+
+  .nav.nav-menu-open #menu {
+    display: flex;
+  }
+
+  #menu li + li {
+    margin-inline-start: 0;
+  }
+
+  #menu a,
+  #menu .menu-parent,
+  #menu .menu-has-children > a {
+    min-height: 44px;
+    line-height: 1.25;
+    padding: 10px 0;
+  }
+
+  #menu .submenu {
+    position: static;
+    display: block;
+    min-width: 0;
+    padding: 0 0 6px 14px;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    background: transparent;
+  }
+
+  #menu .submenu a {
+    min-height: 38px;
+    padding: 8px 0;
+    color: var(--secondary);
+  }
+
+  #menu .submenu a:hover {
+    background: transparent;
+    color: var(--primary);
+  }
+
+  .post-title {
+    font-size: 30px;
+    line-height: 1.15;
+  }
+
+  .post-content p,
+  .post-content li {
+    text-align: left;
+  }
+
+  .post-content table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .post-content table a {
+    white-space: normal;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --textsize: 16px;
+    --content-gap: 16px;
+    --marginleft: 8px;
+  }
+
+  .main {
+    padding: 18px var(--gap);
+  }
+
+  .main .profile {
+    align-items: flex-start;
+    min-height: auto;
+    padding: 36px 0;
+  }
+
+  .profile .profile_inner h1 {
+    font-size: 2rem;
+    line-height: 1.15;
+  }
+
+  .home .profile img {
+    width: 112px !important;
+    height: 112px !important;
+  }
+
+  .buttons {
+    justify-content: flex-start;
+  }
+
+  .button {
+    margin: 4px 6px 4px 0;
+  }
+
+  .post-header {
+    margin-top: 10px;
+  }
+
+  .post-content h1 {
+    font-size: 30px;
+  }
+
+  .post-content h2 {
+    font-size: 22px;
+  }
+
+  .post-content dl {
+    display: block;
+  }
+
+  .post-content dt,
+  .post-content dd {
+    width: auto;
+    padding-inline-start: 0;
+  }
+
+  #back-to-top {
+    right: 1rem;
+    bottom: 1rem;
+    width: 42px;
+    height: 42px;
+  }
+}
