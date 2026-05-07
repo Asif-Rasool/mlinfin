@@ -39,4 +39,4 @@ After pushing to GitHub:
 
 The live site will publish to:
 
-`https://asif-rasool.github.io/mlif/`
+`https://asif-rasool.github.io/mlinfin/`

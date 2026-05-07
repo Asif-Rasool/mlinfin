@@ -79,9 +79,8 @@ For the coding assignments, we will use Python and common data analysis librarie
 
 We will also use the following software:
 
-- **GitHub Desktop** for version control and managing course projects: [https://desktop.github.com/download/](https://desktop.github.com/download/)
 - **Visual Studio Code (VS Code)** as the main code editor: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
-- **Python**, preferably the most recent stable version available: [https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe](https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe)
+- **Python**, preferably version 3.14: [https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe](https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe)
 
 We will also learn how to use coding agents as part of the development process. In this course, I will use OpenAI’s Codex to demonstrate how coding agents can help with writing, debugging, and improving code. You may use your preferred coding agent, but a ChatGPT account with a payment method attached is highly recommended. Learn more about Codex here: [https://developers.openai.com/codex](https://developers.openai.com/codex)
 
