@@ -1,0 +1,350 @@
+% !TEX program = xelatex
+\documentclass[11pt,letterpaper]{article}
+
+% RDT: Rasool Document Template v1.0
+% Best result: compile with XeLaTeX or LuaLaTeX so fontspec can load
+% Calibri. If Calibri is unavailable, the template falls back to
+% Carlito. A pdfLaTeX fallback is included so Overleaf projects still
+% compile if the wrong compiler is selected.
+
+\usepackage[letterpaper,top=1in,bottom=1.5in,left=1.5in,right=1.5in]{geometry}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{tgheros}
+  \renewcommand{\familydefault}{\sfdefault}
+\else
+  \usepackage{fontspec}
+\fi
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+
+\ifPDFTeX
+\else
+  \IfFontExistsTF{Calibri}{\setmainfont{Calibri}}{\setmainfont{Carlito}}
+\fi
+
+\definecolor{rdtnavy}{HTML}{0B2E59}
+\setstretch{1.26}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{8.5pt}
+
+\titleformat{\section}{\bfseries\MakeUppercase}{\thesection}{0.5em}{}
+\titleformat{\subsection}{\bfseries}{\thesubsection}{0.5em}{}
+\titleformat{\subsubsection}{\bfseries\itshape}{\thesubsubsection}{0.5em}{}
+\titlespacing*{\section}{0pt}{11pt}{8.5pt}
+\titlespacing*{\subsection}{0pt}{8.5pt}{8.5pt}
+\titlespacing*{\subsubsection}{0pt}{8.5pt}{8.5pt}
+
+\captionsetup{font={small,stretch=1.0},labelfont={bf,it},labelsep=endash,margin=1in}
+\setlist[itemize]{leftmargin=0.5in,labelsep=0.25in}
+\setlist[enumerate]{leftmargin=0.5in,labelsep=0.25in}
+
+\newenvironment{rdtabstract}{\begin{quote}\noindent\textbf{\textit{Abstract}}---}{\end{quote}}
+\newenvironment{rdtblockquote}{\begin{quote}}{\end{quote}}
+\newcommand{\rdtrunin}[1]{\textbf{\textit{#1---}}}
+
+\begin{document}
+
+\begin{center}
+{\color{rdtnavy}\fontsize{17}{19.55}\selectfont Rasool Document Template v1.0\\
+For Use in FIN 4950\par}
+\vspace{5.5pt}
+{\color{rdtnavy}\rule{\linewidth}{0.4pt}}
+\vspace{5.5pt}
+Author Name\\
+Southeastern Louisiana University\\
+email@example.edu
+\end{center}
+
+\begin{rdtabstract}
+RDT standardizes formatting for FIN 4950 documents while keeping
+submissions readable, consistent, and comparable across students.
+Abstracts are optional; use one when a document needs a concise summary
+of its purpose, data or method, findings, argument, or background. Short
+assignments usually do not need an abstract unless the prompt asks for
+one.
+\end{rdtabstract}
+
+\section{Typography}
+
+RDT uses typography to make student work easier to read and easier to
+evaluate consistently. The goal is not decorative uniformity; it is a
+shared format that keeps page length, spacing, and hierarchy comparable
+across submissions.
+
+\subsection{Body text}
+
+All main text in RDT uses Calibri regular at 11 points when available.
+Body paragraphs use 1.26 line spacing, 8.5 points of spacing after each
+paragraph, justified alignment, and no first-line indentation. Apply
+these settings through the Normal style in word processors or through
+this template in LaTeX rather than through repeated manual formatting.
+
+Students should apply the built-in styles when drafting. Style-based
+formatting keeps headings, captions, body text, and references
+consistent when text is moved, revised, or imported into another
+processor. The rules make the document readable while helping
+page-limited assignments remain comparable.
+
+\textbf{Bold} and \textit{italics} may be used for emphasis. Hyperlinks,
+inline code such as \texttt{risk\_premium}, superscripts such as
+\(x^2\), and subscripts such as \(\beta_1\) are allowed when they help
+explain the work.
+
+\subsection{Title and subtitle}
+
+The title uses Calibri regular at 17 points, centered at the top of the
+first page with 1.15 line spacing. It may span up to three lines when a
+project title is unusually long. For this course template, the second
+line should read ``For Use in FIN 4950.''
+
+The author name, affiliation, and email lines appear below the title
+block in body-size text and are centered. The affiliation line should
+read ``Southeastern Louisiana University.'' The email line may be
+omitted when an assignment requires anonymous submission or when the
+instructor gives different instructions.
+
+\subsection{Abstract}
+
+When included, the abstract appears below the title block. The word
+``Abstract'' is bold italic and followed by an em dash. The paragraph
+uses side indents, body-size type, justified alignment, and the same
+paragraph rhythm as the main text.
+
+Use an abstract for research papers, reports, project proposals,
+analytical memos, policy briefs, and longer assignments. Avoid adding
+one to very short assignments unless it adds value or is specifically
+required. A strong abstract identifies the document's purpose, data or
+method when relevant, main result or argument, and practical relevance.
+
+\subsection{Headings}
+
+Headings use the same 11 point size as body text and should be numbered
+hierarchically. Heading 1 is all caps. Heading 2 and Heading 3 use
+sentence case; Heading 2 is bold upright, and Heading 3 is bold italic.
+Heading 4 is a run-in sidehead: bold italic text followed by an em dash
+that continues into the paragraph.
+
+Headings should clarify the structure of the document rather than
+divide every thought into a separate section. They should usually fit on
+one line. Word and LaTeX can handle numbering through styles or
+commands; Google Docs and Pages may require manual numbering or careful
+style setup.
+
+\subsubsection{Heading 1}
+
+Heading 1 is for major sections. It is all caps, with 11 points of
+spacing before and 8.5 points after. Use it sparingly for the main
+structure of the document. Depending on the assignment, examples might
+include INTRODUCTION, DATA, METHODS, RESULTS, DISCUSSION, REFERENCES,
+or APPENDICES.
+
+\subsubsection{Headings 2 through 4}
+
+Heading 2 is for major subsections inside a Heading 1 section. Heading
+3 is for deeper explanation under Heading 2. Keep both in sentence case
+rather than title case. Heading 4 should behave more like a labeled
+paragraph than a separate section, and it should be used only when it
+makes dense material easier to scan.
+
+\rdtrunin{Heading 4 example} This sentence demonstrates a compact run-in
+sidehead. It is useful for local labels inside a paragraph, but it
+should not replace a clear heading hierarchy.
+
+\subsection{Page layout}
+
+RDT uses US Letter paper, 8.5 by 11 inches. The top margin is 1 inch,
+and the left, right, and bottom margins are 1.5 inches. The layout
+creates a readable text block and helps standardize page length across
+submissions.
+
+The page number should appear in the footer, centered or in a standard
+footer position, about 1 inch from the bottom. Do not place decorative
+elements in the margins. Keep body text, figures, tables, captions,
+references, and appendices within the margins. Do not shrink margins,
+font size, or spacing to fit extra material into a page-limited
+assignment.
+
+\section{Presentational elements}
+
+Figures, tables, diagrams, equations, screenshots, charts, and other
+visual elements should be used when they improve clarity, reduce
+unnecessary prose, or make comparisons easier. Visual material should
+support the argument; it should not replace explanation.
+
+\subsection{Figures}
+
+Figures should be centered and may use the full text block width when
+needed, but they must remain inside the margins. Every figure should be
+referenced in the body text and should have a descriptive caption.
+Figures may include charts, maps, diagrams, screenshots, equations,
+model outputs, or conceptual illustrations.
+
+If a figure has a white background, a thin border can improve
+visibility. Figure captions go below figures and use small text with
+clear side margins. The label, such as ``Figure 1,'' is bold italic and
+followed by an em dash. Keep captions on the same page as the figure
+whenever possible.
+
+\begin{figure}[h]
+\centering
+\fbox{\parbox{0.72\linewidth}{\centering Insert figure, chart, map,
+screenshot, equation, or model output here.}}
+\caption{Example RDT figure caption placed below a figure and written as
+a complete description.}
+\end{figure}
+
+\subsection{Tables}
+
+Tables should be centered and fit within the margins. Table captions go
+above tables; a useful rule is that figures are captioned below, while
+tables are captioned above. Table captions follow the same format as
+figure captions.
+
+Text in tables is generally left-aligned. Numeric columns are generally
+right-aligned or decimal-aligned. Table text may be smaller than body
+text when needed, often matching caption size. Tables should remain
+readable rather than overcrowded. Large tables may be moved to
+appendices if they interrupt the document's flow. Use editable tables
+when possible rather than screenshots of tables.
+
+\begin{table}[h]
+\caption{Example RDT table with text, numeric values, and concise notes.}
+\centering
+\begin{tabular}{l r l}
+\toprule
+Measure & Value & Use in analysis \\
+\midrule
+Expected return & 0.082 & Forecasted annual return \\
+Volatility & 0.165 & Risk comparison \\
+Sample size & 120 & Number of observations \\
+R-squared & 0.410 & Model fit summary \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Additional elements}
+
+RDT allows other elements when they are useful, including quotes, lists,
+equations, code snippets, footnotes, and appendices. Each element should
+support clarity rather than decorate the document. Use them consistently
+and sparingly.
+
+\subsubsection{Quotes}
+
+Short quotes can remain inline with quotation marks and citations.
+Quotes longer than about three lines should be set as block quotes with
+side indents while preserving the main document rhythm. Use brackets
+only when needed to clarify replaced words, and do not overuse
+quotations when paraphrasing would be clearer.
+
+\begin{rdtblockquote}
+A clear financial analysis does more than report a number; it explains
+what the number measures, why the measure is appropriate, and how the
+result should guide the reader's decision.
+\end{rdtblockquote}
+
+\subsubsection{Lists}
+
+Use bulleted lists for parallel items. Use numbered lists for sequence,
+priority, or steps. Lists should use a 0.5-inch left indent, with the
+bullet or number hanging by about 0.25 inch. Avoid long nested lists
+unless they are necessary, and keep list items grammatically parallel
+when possible.
+
+\begin{itemize}
+\item Use a bullet when the order of items does not matter.
+\item Use parallel wording so list items scan cleanly.
+\end{itemize}
+
+\begin{enumerate}
+\item Define the question.
+\item Present the evidence.
+\item Explain the implication.
+\end{enumerate}
+
+\subsubsection{Code, formulas, and technical notation}
+
+Inline code may be used for variable names, file names, commands, or
+functions. Longer code blocks may be separated from the body text.
+Mathematical notation should be readable and consistently formatted.
+Equations may be treated as figures if they need captions, or
+integrated into the text if they are short. For research papers and
+technical assignments, define variables before using them heavily.
+Avoid unexplained equations or code blocks.
+
+\section{Procedural elements}
+
+Procedural elements help readers verify claims, locate sources, and
+understand what material belongs in the main body versus supporting
+sections. RDT favors direct citation practice and clear placement of
+supplemental material.
+
+\subsection{In-text citations}
+
+RDT uses APA-style in-text citations by default unless the assignment,
+journal, client, or instructor requires another style. Citations should
+appear close to the claim they support. Do not place one citation only
+at the end of a long paragraph if several claims require support.
+
+Examples include a parenthetical citation such as (Rasool, 2026), a
+narrative citation such as Rasool and Smith (2026), multiple sources
+such as (Rasool, 2026a; Rasool, 2026b), and a multi-author citation
+such as Rasool et al. (2026). Citations should support specific claims,
+data, methods, figures, and non-original ideas.
+
+Footnotes may be used for supplemental clarification, but they are not
+the default citation method in RDT. Footnotes should use small text with
+the same line-spacing rhythm.
+
+\subsection{Reference lists}
+
+References appear in a dedicated References section. Only works cited
+in the body should appear in the reference list. References should be
+alphabetized by the first author's last name. If numbered references
+are used, numbering should follow the alphabetized order.
+
+Multiple works by the same author should be ordered chronologically.
+Same-author, same-year works should use letters such as 2026a and
+2026b. Reference lists generally do not count against page limits unless
+the assignment says otherwise.
+
+\section{References}
+
+\begin{enumerate}
+\item Rasool, A. (2026). \textit{Example title for a research report}.
+Example Journal, 1(1), 1--10.
+\item Smith, J., \& Rasool, A. (2026). \textit{Example title for an
+applied policy brief}. Example Policy Review, 2(1), 15--25.
+\end{enumerate}
+
+\section{Appendices}
+
+Appendices appear after References. If there are multiple appendices,
+use a Heading 1 called ``APPENDICES'' and Heading 2 labels for each
+appendix. If there is only one appendix, use ``Appendix: Descriptive
+title.''
+
+Appendices may include raw data, long tables, survey instruments, model
+diagnostics, extended calculations, supplemental figures, or
+assignment-specific supporting material. They should not contain
+information required to understand the main argument. The body should
+summarize appendix content and refer readers to the relevant appendix.
+Appendices generally do not count against page limits unless otherwise
+specified by the instructor.
+
+\subsection{Appendix A: Example supplemental table}
+
+The placeholder shows where optional supporting material may appear. The
+main body should remain understandable without requiring the reader to
+inspect the appendix.
+
+\end{document}
