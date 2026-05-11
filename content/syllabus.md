@@ -3,6 +3,8 @@ title: "FIN 4950 Spring 2027 Syllabus"
 description: "Course overview, learning goals, weekly schedule, grading, tools, and policies."
 ---
 
+Note: The content on this page is subject to change before class starts.
+
 ## Quick Links
 
 To help with navigation, here are some of the links you’ll frequently be using in this course:

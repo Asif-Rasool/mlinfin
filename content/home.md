@@ -59,6 +59,16 @@ Available online: [https://www.statlearning.com/](https://www.statlearning.com/)
 Kevin P. Murphy  
 Available online: [https://probml.github.io/pml-book/](https://probml.github.io/pml-book/)
 
+**Python for Finance**  
+Yves Hilpisch  
+I will provide the required chapters.
+
+**What Hedge Funds Really Do: An Introduction to Portfolio Management**  
+Philip J. Romero and Tucker Balch  
+Available on Amazon: [https://www.amazon.com/gp/product/1631570897](https://www.amazon.com/gp/product/1631570897)
+
+I will also provide additional reading materials on a need basis, depending on the lectures covered in class.
+
 ## Grading Scale
 
 This course will use the following grading scale:
@@ -82,7 +92,9 @@ We will also use the following software:
 - **Visual Studio Code (VS Code)** as the main code editor: [https://code.visualstudio.com/download](https://code.visualstudio.com/download)
 - **Python**, preferably version 3.14: [https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe](https://www.python.org/ftp/python/3.14.4/python-3.14.4-amd64.exe)
 
-We will also learn how to use coding agents as part of the development process. In this course, I will use OpenAI’s Codex to demonstrate how coding agents can help with writing, debugging, and improving code. You may use your preferred coding agent, but a ChatGPT account with a payment method attached is highly recommended. Learn more about Codex here: [https://developers.openai.com/codex](https://developers.openai.com/codex)
+We will also learn how to use coding agents as part of the development process. In this course, I will use OpenAI’s Codex to demonstrate how coding agents can help with writing, debugging, and improving code. You may use your preferred coding agent, but a ChatGPT account with a payment method attached is highly recommended.
+
+For more information, see OpenAI’s pages on [using Codex with your ChatGPT plan](https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan/), [ChatGPT Plus](https://help.openai.com/en/articles/6950777-what-is-chatgpt-free-plan), and [OpenAI Codex](https://developers.openai.com/codex).
 
 ## Plagiarism
 
