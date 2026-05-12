@@ -20,11 +20,13 @@ Use the Rasool Document Template (RDT) for course submissions when a template is
 
 | Format | Description | Link |
 | --- | --- | --- |
-| DOCX | Microsoft Word template | [Download DOCX](/files/rdt/rdt.docx) |
-| LaTeX | LaTeX template source | [Download LaTeX](/files/rdt/rdt_latex_template.tex) |
-| Overleaf | Upload-ready Overleaf project package | [Download Overleaf ZIP](/files/rdt/RDT_Overleaf.zip) |
-| Google Docs | Editable Google Docs version | [Open Google Docs](https://docs.google.com/document/d/1uXr8OFCoLFLsZ6BX2B-X2pMxO6FBr8TA/edit) |
-| Apple Pages | Apple Pages setup guide | [Download Pages Guide](/files/rdt/rdt_pages_guide.md) |
+| DOCX | Microsoft Word template | [Download DOCX](rdt/rdt.docx) |
+| LaTeX | LaTeX template source | [Download LaTeX](rdt/rdt_latex_template.tex) |
+| Overleaf | Upload-ready Overleaf project and package | [Open Overleaf](https://www.overleaf.com/read/vgfdgqjjtxhy#60d95d) \| [Download Overleaf ZIP](rdt/RDT_Overleaf.zip) |
+| Overleaf Guide | Instructions for using the Overleaf package | [Download Overleaf Guide](rdt/rdt_overleaf_guide.md) |
+| Google Docs | Editable Google Docs version and setup guide | [Open Google Docs](https://docs.google.com/document/d/1y5WCbuS_Qn7PQqh7Scck64zy1HAQeTvo/edit?usp=sharing&ouid=107473799200201468997&rtpof=true&sd=true) \| [Download Google Docs Guide](rdt/rdt_google_docs_guide.md) |
+| Apple Pages | Apple Pages setup guide and template package | [Download Pages Guide](rdt/rdt_pages_guide.md) \| [Download Pages Package](rdt/rdt_pages_template_package.zip) |
+| Style Guide | Formatting and usage guidance for RDT | [Download Style Guide](rdt/rdt_style_guide.md) |
 
 ## File Organization
 
