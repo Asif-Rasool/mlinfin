@@ -61,7 +61,7 @@ Available online: [https://probml.github.io/pml-book/](https://probml.github.io/
 
 **Python for Finance**  
 Yves Hilpisch  
-I will provide the required chapters.
+Available online: [https://www.sea-stat.com/wp-content/uploads/2021/05/Yves-Hilpisch-Python-for-Finance_-Mastering-Data-Driven-Finance-Book-OReilly-2018.pdf](https://www.sea-stat.com/wp-content/uploads/2021/05/Yves-Hilpisch-Python-for-Finance_-Mastering-Data-Driven-Finance-Book-OReilly-2018.pdf)
 
 **What Hedge Funds Really Do: An Introduction to Portfolio Management**  
 Philip J. Romero and Tucker Balch  
