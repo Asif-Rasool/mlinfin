@@ -19,3 +19,39 @@ Environment: "development"
 Serving pages from disk
 Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1) 
 Press Ctrl+C to stop
+
+Change of Static files detected, rebuilding site (#1).
+2026-05-12 08:58:47.517 -0500
+Syncing \files\rdt\~$rdt.docx to \
+
+Change of Static files detected, rebuilding site (#2).
+2026-05-12 08:58:48.017 -0500
+Syncing \files\rdt to \
+
+Change of Static files detected, rebuilding site (#3).
+2026-05-12 09:00:07.518 -0500
+Syncing \files\rdt to \
+Syncing \files\rdt\rdt.docx to \
+
+Change of Static files detected, rebuilding site (#4).
+2026-05-12 09:03:51.517 -0500
+Syncing \files\rdt to \
+
+Change of Static files detected, rebuilding site (#5).
+2026-05-12 09:07:44.028 -0500
+Syncing \files\rdt\rdt_style_guide.md to \
+Syncing \files\rdt\rdt_latex_template.tex to \
+Syncing \files\rdt\rdt_google_docs_guide.md to \
+Syncing \files\rdt\rdt_pages_guide.md to \
+Syncing \files\rdt\rdt_overleaf_guide.md to \
+
+Change of Static files detected, rebuilding site (#6).
+2026-05-12 09:08:09.028 -0500
+Syncing \files\rdt\RDT_Overleaf.zip to \
+Syncing \files\rdt\rdt_pages_template_package.zip to \
+
+Change detected, rebuilding site (#7).
+2026-05-12 09:25:34.529 -0500
+Source changed /home.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 30 ms

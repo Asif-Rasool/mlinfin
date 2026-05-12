@@ -18,7 +18,7 @@ Bold and italics may be used for emphasis. Hyperlinks, inline code, superscripts
 
 ## Title Block
 
-Use this exact title block:
+Use this title block structure:
 
 ```text
 Rasool Document Template v1.0

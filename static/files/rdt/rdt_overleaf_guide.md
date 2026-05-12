@@ -17,7 +17,7 @@ Use the Overleaf package file `RDT_Overleaf.zip`.
 
 ## Title Block
 
-Keep the FIN 4950 course line in the title block:
+Use this title block structure:
 
 ```text
 Rasool Document Template v1.0

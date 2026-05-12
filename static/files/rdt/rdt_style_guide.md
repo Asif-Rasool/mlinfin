@@ -28,7 +28,7 @@ Southeastern Louisiana University
 email@example.edu
 ```
 
-Set the title in Calibri regular, 17 pt, centered, with 1.15 line spacing. The course line must read “For Use in FIN 4950” for this class template. Author name, affiliation, and email lines use Calibri regular, 11 pt, centered. The affiliation line should read “Southeastern Louisiana University.” The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
+Set the title in Calibri regular, 17 pt, centered, with 1.15 line spacing. It may span up to three lines. Author name, affiliation, and email lines use Calibri regular, 11 pt, centered. The affiliation line should read “Southeastern Louisiana University.” The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
 
 ## Abstract
 

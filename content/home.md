@@ -17,11 +17,11 @@ There are three parts in this course:
 
 By the end of the course, students should be able to:
 
-- Prepare financial datasets for machine learning workflows.
-- Build, tune, and evaluate supervised learning models.
-- Use validation methods that respect time, information flow, and financial context.
-- Interpret model output and explain tradeoffs between accuracy, robustness, and usefulness.
-- Apply machine learning to finance problems such as risk modeling, return prediction, text signals, and portfolio analysis.
+- Work with financial data in Python.
+- Explain basic investing and trading concepts.
+- Build machine learning models for trading problems.
+- Test trading strategies using different validation methods.
+- Explain model results, limits, and tradeoffs.
 
 ## Prerequisites/Co-requisites
 
