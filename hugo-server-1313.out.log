@@ -9,7 +9,7 @@ hugo v0.154.5-a6f99cca223a29cad1d4cdaa6a1a90508ac1da71+extended windows/amd64 Bu
  Pages            │ 25 
  Paginator pages  │  0 
  Non-page files   │  0 
- Static files     │  8 
+ Static files     │ 10 
  Processed images │  0 
  Aliases          │  0 
  Cleaned          │  0 
@@ -17,41 +17,62 @@ hugo v0.154.5-a6f99cca223a29cad1d4cdaa6a1a90508ac1da71+extended windows/amd64 Bu
 Built in 28 ms
 Environment: "development"
 Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
 Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1) 
 Press Ctrl+C to stop
 
 Change of Static files detected, rebuilding site (#1).
-2026-05-12 08:58:47.517 -0500
+2026-05-13 14:14:06.910 -0500
 Syncing \files\rdt\~$rdt.docx to \
+Syncing \files\rdt to \
 
 Change of Static files detected, rebuilding site (#2).
-2026-05-12 08:58:48.017 -0500
+2026-05-13 14:14:19.919 -0500
 Syncing \files\rdt to \
 
 Change of Static files detected, rebuilding site (#3).
-2026-05-12 09:00:07.518 -0500
+2026-05-13 14:22:07.413 -0500
+Syncing \files\rdt\RDT_Overleaf.zip to \
 Syncing \files\rdt to \
 Syncing \files\rdt\rdt.docx to \
+Syncing \files\rdt\rdt_google_docs_guide.md to \
+Syncing \files\rdt\rdt_latex_template.tex to \
+Syncing \files\rdt\rdt_overleaf_guide.md to \
+Syncing \files\rdt\rdt_pages_guide.md to \
+Syncing \files\rdt\rdt_pages_template_package.zip to \
+Syncing \files\rdt\rdt_style_guide.md to \
 
-Change of Static files detected, rebuilding site (#4).
-2026-05-12 09:03:51.517 -0500
-Syncing \files\rdt to \
+Change detected, rebuilding site (#4).
+2026-05-13 14:22:07.438 -0500
+Source changed /files.md
+Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
+Total in 25 ms
 
 Change of Static files detected, rebuilding site (#5).
-2026-05-12 09:07:44.028 -0500
-Syncing \files\rdt\rdt_style_guide.md to \
-Syncing \files\rdt\rdt_latex_template.tex to \
-Syncing \files\rdt\rdt_google_docs_guide.md to \
-Syncing \files\rdt\rdt_pages_guide.md to \
-Syncing \files\rdt\rdt_overleaf_guide.md to \
+2026-05-13 14:22:07.919 -0500
+Syncing \files\rdt\rdt_latex_template.log to \
+Syncing \files\rdt to \
+Syncing \files\rdt\rdt_latex_template.synctex(busy) to \
 
 Change of Static files detected, rebuilding site (#6).
-2026-05-12 09:08:09.028 -0500
-Syncing \files\rdt\RDT_Overleaf.zip to \
-Syncing \files\rdt\rdt_pages_template_package.zip to \
+2026-05-13 14:22:08.409 -0500
+Syncing \files\rdt\rdt_latex_template.aux to \
+Syncing \files\rdt to \
+Syncing \files\rdt\rdt_latex_template.out to \
 
-Change detected, rebuilding site (#7).
-2026-05-12 09:25:34.529 -0500
-Source changed /home.md
-Web Server is available at http://127.0.0.1:1313/ (bind address 127.0.0.1)
-Total in 30 ms
+Change of Static files detected, rebuilding site (#7).
+2026-05-13 14:22:08.918 -0500
+Syncing \files\rdt\rdt_latex_template.pdf to \
+
+Change of Static files detected, rebuilding site (#8).
+2026-05-13 14:22:09.409 -0500
+Syncing \files\rdt\rdt_latex_template.pdf to \
+Syncing \files\rdt\rdt_latex_template.out to \
+Syncing \files\rdt\rdt_latex_template.aux to \
+Syncing \files\rdt\rdt_latex_template.synctex.gz to \
+Syncing \files\rdt to \
+Syncing \files\rdt\rdt_latex_template.log to \
+
+Change of Static files detected, rebuilding site (#9).
+2026-05-13 14:22:47.910 -0500
+Syncing \files\rdt to \

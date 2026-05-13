@@ -6,3 +6,4 @@ resources/_gen/
 node_modules/
 .DS_Store
 Thumbs.db
+hugo-server-1313.out.log
