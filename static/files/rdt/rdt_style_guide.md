@@ -28,7 +28,7 @@ Southeastern Louisiana University
 email@example.edu
 ```
 
-Set the title in Calibri regular, 17 pt, centered, with 1.15 line spacing. It may span up to three lines. Author name, affiliation, and email lines use Calibri regular, 11 pt, centered. The affiliation line should read “Southeastern Louisiana University.” The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
+Set the title in Calibri regular, 17 pt, centered, with 1.15 line spacing and no color accent. Author name, affiliation, and email lines use Calibri regular, 11 pt, centered. The affiliation line should read “Southeastern Louisiana University.” The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
 
 ## Abstract
 
@@ -38,7 +38,7 @@ Abstracts are optional. Use them for longer assignments that need a brief summar
 
 ## Headings
 
-Use numbered headings. Heading 1 is 11 pt bold, all caps, with 11 pt spacing before and 8.5 pt after. Heading 2 is 11 pt bold upright, sentence case, with 8.5 pt before and after. Heading 3 is 11 pt bold italic, sentence case, with 8.5 pt before and after.
+Use numbered headings without color accents. Heading 1 is 11 pt bold, all caps, with 11 pt spacing before and 8.5 pt after. Heading 2 is 11 pt bold upright, sentence case, with 8.5 pt before and after. Heading 3 is 11 pt bold italic, sentence case, with 8.5 pt before and after.
 
 Heading 4 is a run-in sidehead: 11 pt bold italic, followed by an em dash, continuing into body text. Avoid headings beyond Heading 3 unless the document is complex. Word and LaTeX can handle numbering through styles or commands; Google Docs and Pages may require manual numbering or careful style setup.
 
@@ -52,7 +52,7 @@ Place figure captions below figures. Captions use Calibri 8.5 pt, 14 pt line spa
 
 Center tables and keep them inside the margins. Place table captions above tables. A simple rule helps: figures are captioned below, tables are captioned above. Table captions follow the same formatting as figure captions.
 
-Left-align text in tables. Right-align or decimal-align numeric columns. Table text may be smaller than body text, often matching caption size. Move large tables to appendices if they interrupt the document. Use editable tables instead of screenshots.
+Use a clean LaTeX-style table format: no shaded header row, no vertical grid lines, and horizontal rules only at the top, below the header, and at the bottom. Left-align text in tables. Right-align or decimal-align numeric columns. Table text may be smaller than body text, often matching caption size. Move large tables to appendices if they interrupt the document. Use editable tables instead of screenshots.
 
 ## Quotes
 

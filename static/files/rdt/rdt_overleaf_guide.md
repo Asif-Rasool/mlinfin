@@ -17,7 +17,7 @@ Use the Overleaf package file `RDT_Overleaf.zip`.
 
 ## Title Block
 
-Use this title block structure:
+Keep the FIN 4950 course line in the title block:
 
 ```text
 Rasool Document Template v1.0
@@ -50,7 +50,7 @@ In `rdt_latex_template.tex`, update:
 
 ## Formatting Already Built In
 
-The LaTeX template sets US Letter paper, 1-inch top margin, 1.5-inch bottom/left/right margins, 11 pt body text, 1.26 line spacing, 8.5 pt paragraph spacing, centered 17 pt title block, RDT heading styles, captions, tables, block quotes, lists, references, and appendix behavior.
+The LaTeX template sets US Letter paper, 1-inch top margin, 1.5-inch bottom/left/right margins, 11 pt body text, 1.26 line spacing, 8.5 pt paragraph spacing, centered 17 pt title block without color accents, RDT heading styles, captions, tables, block quotes, lists, references, and appendix behavior.
 
 ## Common Issues
 

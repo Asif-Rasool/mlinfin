@@ -18,7 +18,7 @@ Bold and italics may be used for emphasis. Hyperlinks, inline code, superscripts
 
 ## Title Block
 
-Use this title block structure:
+Use this exact title block:
 
 ```text
 Rasool Document Template v1.0
@@ -28,7 +28,7 @@ Southeastern Louisiana University
 email@example.edu
 ```
 
-Set the title to Calibri regular, 17 pt, centered, with 1.15 line spacing. The author, affiliation, and email lines use Calibri regular, 11 pt, centered. The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
+Set the title to Calibri regular, 17 pt, centered, with 1.15 line spacing and no color accent. The author, affiliation, and email lines use Calibri regular, 11 pt, centered. The email line may be omitted for anonymous submissions or when the instructor gives different instructions.
 
 ## Abstract
 
@@ -38,7 +38,7 @@ Abstracts are optional. Use them for longer assignments that need a brief summar
 
 ## Headings
 
-Use numbered headings. Pages automatic heading numbering may differ across versions and may require manual numbering.
+Use numbered headings without color accents. Pages automatic heading numbering may differ across versions and may require manual numbering.
 
 - Heading 1: Calibri, 11 pt, bold, all caps, 11 pt before, 8.5 pt after.
 - Heading 2: Calibri, 11 pt, bold upright, sentence case, 8.5 pt before and after.
@@ -55,7 +55,7 @@ Put figure captions below figures. Captions use Calibri, 8.5 pt, 14 pt line spac
 
 ## Tables
 
-Put table captions above tables. Figure captions go below figures; table captions go above tables. Center tables and keep them within the margins. Use left alignment for text and right or decimal alignment for numeric values. Dense tables may use 8.5 pt Calibri. Use editable tables instead of screenshots.
+Put table captions above tables. Figure captions go below figures; table captions go above tables. Center tables and keep them within the margins. Use a clean LaTeX-style table format: no shaded header row, no vertical grid lines, and horizontal rules only at the top, below the header, and at the bottom. Use left alignment for text and right or decimal alignment for numeric values. Dense tables may use 8.5 pt Calibri. Use editable tables instead of screenshots.
 
 ## Quotes, Lists, and Technical Material
 
