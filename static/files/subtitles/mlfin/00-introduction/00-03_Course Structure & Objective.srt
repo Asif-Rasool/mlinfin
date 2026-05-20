@@ -1,0 +1,68 @@
+1
+00:00:00,591 --> 00:00:02,212
+Our course has three main parts.
+
+2
+00:00:02,552 --> 00:00:05,532
+The first part is working with financial data in Python.
+
+3
+00:00:06,273 --> 00:00:13,154
+In this part, we'll learn how to read historical financial data into Python, organize it, manipulate it, and then analyze it.
+
+4
+00:00:13,674 --> 00:00:19,276
+We'll also use Python to visualize financial data so we can see patterns more clearly.
+
+5
+00:00:19,756 --> 00:00:22,217
+The second part is computational investing.
+
+6
+00:00:22,737 --> 00:00:27,378
+In this part, we'll study the methods and models used in data-driven investing.
+
+7
+00:00:28,114 --> 00:00:36,238
+We'll look at ideas used by hedge funds, investment banks, and trading teams to work with financial data and make investment decisions.
+
+8
+00:00:36,899 --> 00:00:39,940
+The third part is machine learning methods for trading.
+
+9
+00:00:40,541 --> 00:00:43,422
+In this final part, we will bring everything together.
+
+10
+00:00:43,943 --> 00:00:53,528
+We'll take the financial data skills from the first part, the investment concepts from the second part, and then apply machine learning methods to trading problems.
+
+11
+00:00:54,148 --> 00:01:05,044
+We'll use and discuss algorithms such as Random Forest and QLearning and we'll see how these tools can be used to build trading strategies.
+
+12
+00:01:05,833 --> 00:01:18,839
+My goal is that after you complete this course, you will be prepared to contribute to a trading system development team, such as at a hedge fund and investment bank or a financial technology company.
+
+13
+00:01:19,480 --> 00:01:28,624
+You should be able to work with financial data and you should be able to analyze them, build models, test ideas, and think carefully about the results.
+
+14
+00:01:29,105 --> 00:01:31,966
+At the same time, I want to be clear about one thing.
+
+15
+00:01:32,422 --> 00:01:39,569
+Completing this course does not mean you should immediately start automated trading with real money.
+
+16
+00:01:40,009 --> 00:01:41,551
+The course is a starting point.
+
+17
+00:01:41,831 --> 00:01:48,258
+It will give you the foundation to understand how these systems are built and what it takes to use them responsibly.
+

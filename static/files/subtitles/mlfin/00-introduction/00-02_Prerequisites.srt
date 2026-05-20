@@ -1,0 +1,56 @@
+1
+00:00:00,131 --> 00:00:01,692
+Let's talk about the prerequisites.
+
+2
+00:00:02,092 --> 00:00:05,133
+You do not need to be a stock market expert to do well in this course.
+
+3
+00:00:05,813 --> 00:00:07,954
+The students from different backgrounds are welcome.
+
+4
+00:00:08,574 --> 00:00:10,255
+If you are new to finance, that is fine.
+
+5
+00:00:10,955 --> 00:00:15,117
+Many students become interested in finance after they start working with the data.
+
+6
+00:00:16,147 --> 00:00:18,108
+We'll use Python throughout the course.
+
+7
+00:00:18,768 --> 00:00:24,589
+Many assignments will require you to write code, test your work, debug problems.
+
+8
+00:00:25,390 --> 00:00:28,571
+We'll move at a steady pace, so you should be ready to practice.
+
+9
+00:00:29,411 --> 00:00:33,232
+We'll also use coding agents to help us write and improve code.
+
+10
+00:00:33,912 --> 00:00:39,934
+These tools can be very helpful, but you still need to understand the basics of coding to use them well.
+
+11
+00:00:40,734 --> 00:00:47,435
+At minimum, you should be familiar with Python basics such as functions, loops, conditionals, and basic data structures.
+
+12
+00:00:48,115 --> 00:00:54,277
+If Python is new to you, plan to spend extra time early in the course getting comfortable with it.
+
+13
+00:00:54,897 --> 00:00:58,837
+I have also added resources on the course website to help you get started.
+
+14
+00:00:59,438 --> 00:01:06,639
+The finance concepts will build over time, but strong programming skills will help you keep up from the beginning.
+

@@ -3,16 +3,16 @@ title: "Video Lessons"
 description: "Recorded lectures, walkthroughs, and short concept videos."
 ---
 
-## Lessons
+Note: The content on this page is subject to change before class starts.
 
-Video lessons will be posted here as they become available.
+{{< collapse summary="00 Introduction" openByDefault=true >}}
 
-| Module | Topic | Link |
-| --- | --- | --- |
-| 1 | Course setup and finance data foundations | To be added |
-| 2 | Machine learning workflow and evaluation | To be added |
-| 3 | Feature engineering and regularization | To be added |
+This introductory module gives students the starting context for the course, the expected background knowledge, and the overall course structure.
 
-## Notes
+### Video Lessons
 
-Students should use the videos together with the notebooks, readings, and assignments listed in the course files.
+- [00-01 Introduction](https://youtu.be/W_9IdK92DYI)
+- [00-02 Prerequisites](https://youtu.be/4excnVL249c)
+- [00-03 Course Structure](https://youtu.be/QJgqLSbcyX8)
+
+{{< /collapse >}}

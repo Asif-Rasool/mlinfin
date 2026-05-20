@@ -1,0 +1,72 @@
+1
+00:00:00,875 --> 00:00:01,415
+Hi everyone.
+
+2
+00:00:01,815 --> 00:00:03,455
+Welcome to Machine Learning in Finance.
+
+3
+00:00:04,096 --> 00:00:07,776
+My name is Asif Rasool and I will be your instructor for this course.
+
+4
+00:00:08,696 --> 00:00:10,237
+Let me start with a simple question.
+
+5
+00:00:10,857 --> 00:00:13,977
+Suppose I'm thinking about buying Apple stock.
+
+6
+00:00:14,537 --> 00:00:15,297
+Should I buy it?
+
+7
+00:00:16,758 --> 00:00:18,858
+The honest answer is it depends.
+
+8
+00:00:19,118 --> 00:00:20,378
+It depends on many things.
+
+9
+00:00:21,218 --> 00:00:30,700
+My answer depends on my portfolio, my risk tolerance, the information I have, my investment goal, or even my time horizon.
+
+10
+00:00:31,543 --> 00:00:33,044
+Am I investing for the short run?
+
+11
+00:00:33,525 --> 00:00:35,126
+Am I investing for the long run?
+
+12
+00:00:35,806 --> 00:00:37,928
+Or am I trying to build a trading strategy?
+
+13
+00:00:38,849 --> 00:00:42,692
+Questions like these are central to this course.
+
+14
+00:00:43,513 --> 00:00:53,641
+We will study how information influences stock prices, how to build software to analyze and visualize financial relationships, and how stock exchanges work.
+
+15
+00:00:54,685 --> 00:01:00,009
+Later in this course, we'll use machine learning algorithms to build trading strategies.
+
+16
+00:01:00,709 --> 00:01:03,391
+I had a lot of fun developing this course.
+
+17
+00:01:03,811 --> 00:01:05,252
+I hope you enjoy it too.
+
+18
+00:01:05,933 --> 00:01:06,633
+Let's get started.
+
