@@ -6,7 +6,7 @@ weight: 30
 
 Note: The content on this page is subject to change before class starts.
 
-{{< collapse summary="Lesson 1: Machine Learning in Trading" openByDefault=true >}}
+{{< collapse summary="03-01 Machine Learning in Trading" openByDefault=true >}}
 
 In this lesson, we will introduce how hedge funds use machine learning and how trading models are tested before being used.
 
@@ -21,7 +21,7 @@ In this lesson, we will introduce how hedge funds use machine learning and how t
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 2: Supervised Learning for Trading Signals" >}}
+{{< collapse summary="03-02 Supervised Learning for Trading Signals" >}}
 
 In this lesson, we will review common supervised learning methods and introduce the trading problem used in the rest of the module.
 
@@ -39,7 +39,7 @@ In this lesson, we will review common supervised learning methods and introduce 
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 3: Regression Models for Trading" >}}
+{{< collapse summary="03-03 Regression Models for Trading" >}}
 
 In this lesson, we will introduce regression as a way to predict future stock behavior and connect it to the trading workflow.
 
@@ -57,7 +57,7 @@ In this lesson, we will introduce regression as a way to predict future stock be
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 4: Evaluating Learning Algorithms" >}}
+{{< collapse summary="03-04 Evaluating Learning Algorithms" >}}
 
 In this lesson, we will compare linear regression and KNN and learn how to measure model performance in trading problems.
 
@@ -78,7 +78,7 @@ In this lesson, we will compare linear regression and KNN and learn how to measu
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 5: Ensemble Learning for Trading Models" >}}
+{{< collapse summary="03-05 Ensemble Learning for Trading Models" >}}
 
 In this lesson, we will learn how ensemble methods combine multiple learners to improve prediction performance.
 
@@ -94,7 +94,7 @@ In this lesson, we will learn how ensemble methods combine multiple learners to 
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 6: Reinforcement Learning" >}}
+{{< collapse summary="03-06 Reinforcement Learning" >}}
 
 In this lesson, we will introduce reinforcement learning and explain how it differs from supervised learning.
 
@@ -108,7 +108,7 @@ In this lesson, we will introduce reinforcement learning and explain how it diff
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 7: Q-Learning" >}}
+{{< collapse summary="03-07 Q-Learning" >}}
 
 In this lesson, we will introduce Q-learning as a model-free reinforcement learning method.
 
@@ -123,7 +123,7 @@ In this lesson, we will introduce Q-learning as a model-free reinforcement learn
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 8: Dyna" >}}
+{{< collapse summary="03-08 Dyna" >}}
 
 In this lesson, we will learn how Dyna combines real experience with simulated experience to improve learning.
 

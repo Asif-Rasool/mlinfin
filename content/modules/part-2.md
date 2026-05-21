@@ -6,7 +6,7 @@ weight: 20
 
 Note: The content on this page is subject to change before class starts.
 
-{{< collapse summary="Lesson 1: Thinking Like a Hedge Fund Manager" openByDefault=true >}}
+{{< collapse summary="02-01 Thinking Like a Hedge Fund Manager" openByDefault=true >}}
 
 In this lesson, we will introduce investing from the perspective of a hedge fund manager and discuss how investment decisions are shaped by goals, risk, and strategy.
 
@@ -20,7 +20,7 @@ In this lesson, we will introduce investing from the perspective of a hedge fund
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 2: How Financial Markets Work" >}}
+{{< collapse summary="02-02 How Financial Markets Work" >}}
 
 In this lesson, we will review how markets function, how orders move through exchanges, and how different order types affect trading.
 
@@ -34,7 +34,7 @@ In this lesson, we will review how markets function, how orders move through exc
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 3: Understanding Company Value" >}}
+{{< collapse summary="02-03 Understanding Company Value" >}}
 
 In this lesson, we will discuss why company value matters, how market prices can differ from true value, and why future cash flows are important in valuation.
 
@@ -51,7 +51,7 @@ In this lesson, we will discuss why company value matters, how market prices can
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 4: The Capital Asset Pricing Model" >}}
+{{< collapse summary="02-04 The Capital Asset Pricing Model" >}}
 
 In this lesson, we will introduce the Capital Asset Pricing Model and explain how beta connects stock movement to market movement.
 
@@ -68,7 +68,7 @@ In this lesson, we will introduce the Capital Asset Pricing Model and explain ho
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 5: Using CAPM in Hedge Fund Strategies" >}}
+{{< collapse summary="02-05 Using CAPM in Hedge Fund Strategies" >}}
 
 In this lesson, we will discuss how hedge funds use CAPM to guide long and short positions and adjust portfolio allocations over time.
 
@@ -81,7 +81,7 @@ In this lesson, we will discuss how hedge funds use CAPM to guide long and short
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 6: Technical Analysis" >}}
+{{< collapse summary="02-06 Technical Analysis" >}}
 
 In this lesson, we will introduce technical analysis and discuss how recent prices, trading volume, and indicators can be used to study stock movements.
 
@@ -93,7 +93,7 @@ In this lesson, we will introduce technical analysis and discuss how recent pric
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 7: Working with Market Data" >}}
+{{< collapse summary="02-07 Working with Market Data" >}}
 
 In this lesson, we will discuss common problems in financial datasets and why data quality matters for trading strategies.
 
@@ -109,7 +109,7 @@ In this lesson, we will discuss common problems in financial datasets and why da
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 8: Efficient Market Hypothesis" >}}
+{{< collapse summary="02-08 Efficient Market Hypothesis" >}}
 
 In this short lesson, we will discuss the Efficient Market Hypothesis and what it means for predicting stock prices.
 
@@ -125,7 +125,7 @@ In this short lesson, we will discuss the Efficient Market Hypothesis and what i
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 9: Active Portfolio Management Principles" >}}
+{{< collapse summary="02-09 Active Portfolio Management Principles" >}}
 
 In this lesson, we will introduce the tradeoff between broad information across many stocks and deep information about fewer stocks.
 
@@ -141,7 +141,7 @@ In this lesson, we will introduce the tradeoff between broad information across 
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 10: Portfolio Optimization and the Efficient Frontier" >}}
+{{< collapse summary="02-10 Portfolio Optimization and the Efficient Frontier" >}}
 
 In this lesson, we will discuss the intuition behind portfolio optimization and the efficient frontier.
 

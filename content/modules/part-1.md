@@ -6,7 +6,7 @@ weight: 10
 
 Note: The content on this page is subject to change before class starts.
 
-{{< collapse summary="Lesson 0: Setting Things Up" openByDefault=true >}}
+{{< collapse summary="01-01 Setting Things Up" openByDefault=true >}}
 
 Before we start working with financial data, we will set up the tools needed for the course. In this lesson, we will install Visual Studio Code, set up Python, add the required extensions, and run a simple test file to make sure everything works.
 
@@ -20,7 +20,7 @@ Before we start working with financial data, we will set up the tools needed for
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 1: Getting Started with Stock Data in Python" >}}
+{{< collapse summary="01-02 Getting Started with Stock Data in Python" >}}
 
 In this lesson, we will begin working with real stock market data. We will load stock data into Python using Pandas, filter it by date, create simple plots, and then see how an AI agent can help perform the same tasks more efficiently.
 
@@ -35,7 +35,7 @@ In this lesson, we will begin working with real stock market data. We will load 
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 2: Building Multi-Stock Datasets" >}}
+{{< collapse summary="01-03 Building Multi-Stock Datasets" >}}
 
 In this lesson, we will work with multiple stocks in one DataFrame, slice the data by date and symbol, plot stock prices, and normalize prices for comparison.
 
@@ -52,7 +52,7 @@ In this lesson, we will work with multiple stocks in one DataFrame, slice the da
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 3: NumPy for Financial Computing" >}}
+{{< collapse summary="01-04 NumPy for Financial Computing" >}}
 
 In this lesson, we will learn how NumPy supports fast numerical computing in Python and how it connects with Pandas for financial data analysis.
 
@@ -69,7 +69,7 @@ In this lesson, we will learn how NumPy supports fast numerical computing in Pyt
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 4: Time-Series Statistics for Market Data" >}}
+{{< collapse summary="01-05 Time-Series Statistics for Market Data" >}}
 
 In this lesson, we will calculate basic and rolling statistics for stock price data and use Bollinger Bands as a technical indicator example.
 
@@ -87,7 +87,7 @@ In this lesson, we will calculate basic and rolling statistics for stock price d
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 5: Handling Missing Financial Data" >}}
+{{< collapse summary="01-06 Handling Missing Financial Data" >}}
 
 In this lesson, we will examine why missing data appears in financial datasets and how to handle it in Python.
 
@@ -101,7 +101,7 @@ In this lesson, we will examine why missing data appears in financial datasets a
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 6: Visualizing Returns and Stock Relationships" >}}
+{{< collapse summary="01-07 Visualizing Returns and Stock Relationships" >}}
 
 In this lesson, we will use histograms and scatter plots to analyze daily returns and compare relationships across stocks.
 
@@ -116,7 +116,7 @@ In this lesson, we will use histograms and scatter plots to analyze daily return
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 7: Measuring Portfolio Performance" >}}
+{{< collapse summary="01-08 Measuring Portfolio Performance" >}}
 
 In this lesson, we will calculate key portfolio statistics, including daily return, volatility, cumulative return, and the Sharpe ratio.
 
@@ -133,7 +133,7 @@ In this lesson, we will calculate key portfolio statistics, including daily retu
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 8: Using Optimization to Fit Models" >}}
+{{< collapse summary="01-09 Using Optimization to Fit Models" >}}
 
 In this lesson, we will learn what optimizers do and use one to fit a parameterized model to data.
 
@@ -148,7 +148,7 @@ In this lesson, we will learn what optimizers do and use one to fit a parameteri
 
 {{< /collapse >}}
 
-{{< collapse summary="Lesson 9: Portfolio Optimization in Python" >}}
+{{< collapse summary="01-10 Portfolio Optimization in Python" >}}
 
 In this lesson, we will use an optimizer to build a portfolio based on objectives, constraints, and allocation ranges.
 
