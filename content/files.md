@@ -24,7 +24,7 @@ Download subtitle files for the Module 00 video lessons.
 
 - [00-01 Introduction](subtitles/mlfin/00-introduction/00-01_Introduction.srt)
 - [00-02 Prerequisites](subtitles/mlfin/00-introduction/00-02_Prerequisites.srt)
-- [00-03 Course Structure](<subtitles/mlfin/00-introduction/00-03_Course Structure & Objective.srt>)
+- [00-03 Course Structure & Objective](<subtitles/mlfin/00-introduction/00-03_Course Structure & Objective.srt>)
 
 {{< /collapse >}}
 

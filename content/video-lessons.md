@@ -13,7 +13,7 @@ This introductory module gives students the starting context for the course, the
 
 - [00-01 Introduction](https://youtu.be/W_9IdK92DYI)
 - [00-02 Prerequisites](https://youtu.be/4excnVL249c)
-- [00-03 Course Structure](https://youtu.be/QJgqLSbcyX8)
+- [00-03 Course Structure & Objective](https://youtu.be/QJgqLSbcyX8)
 
 {{< /collapse >}}
 
