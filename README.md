@@ -1,6 +1,6 @@
 # Machine Learning in Finance
 
-Hugo course website for Machine Learning in Finance, using the PaperMod theme.
+Hugo course website for Machine Learning in Finance, using local PaperMod-derived layouts and assets.
 
 The public site is intentionally simple:
 

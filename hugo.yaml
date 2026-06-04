@@ -1,7 +1,6 @@
 baseURL: "https://asif-rasool.github.io/mlinfin/"
 languageCode: "en-us"
 title: "Machine Learning in Finance"
-theme: "PaperMod"
 enableInlineShortcodes: true
 enableRobotsTXT: true
 relativeURLs: false
